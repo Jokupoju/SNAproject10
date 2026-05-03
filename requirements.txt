@@ -5,3 +5,4 @@ numpy
 networkx
 sklearn
 os
+scikit
