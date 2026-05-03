@@ -1,0 +1,69 @@
+COMMON PARAMETERS FOR ALL:
+Scaling 5.0
+Stronger gravity
+Gravity 0.2
+Prevent overlap
+Nodes scaled min 2, max 20 (size)
+Minimum 4 common words from whitelist
+Similarity threshold 0.9 for cosine_similarity from sklearn
+
+
+2018:
+Class 71 (499 posts): alkoholi, alkoholia, alkoholin, kuten, enemmän, sillä, enää, tässä, hyvin, ennen
+Class 59 (480 posts): sokeria, vettä, päälle, pois, kg, dl, 10, tl, voita, 1dl
+Class 146 (399 posts): lihava, nainen, mies, naiset, ettei, miehen, miten, miehet, kuinka, naisten
+Class 160 (307 posts): maksaa, ostaa, 20, yli, 10, 50, 30, alkoholia, eu, rahaa
+Class 111 (292 posts): pizza, pizzaa, pizzat, kebab, onko, pizzan, hyvin, todella, pizzeria, vikaa
+Class 102 (214 posts): lihavuus, lihava, lihavia, nainen, hyvin, lihavat, syö, toki, enemmän, mies
+Class 36 (203 posts): b12, vitamiini, vitamiinin, vitamiinia, anemia, hyvin, oireet, oireita, puutos, ym
+Class 72 (202 posts): ruokavalio, aika, enemmän, lihaa, syö, jossa, liian, kannattaa, jne, diabeteksen
+
+2019:
+Class 4 (629 posts): liha, lihaa, lihan, kuten, syödä, pois, enää, sillä, ruokaa, punainen
+Class 45 (577 posts): alkoholi, alkoholia, alkoholin, hyvin, enemmän, tupakka, ilman, kannabis, jälkeen, aiheuttaa
+Class 263 (450 posts): lihava, mies, nainen, naiset, miten, naisia, ettei, naisen, liian, oon
+Class 170 (442 posts): sokeria, hyvin, lisää, syö, vettä, 10, jälkeen, rasvaa, enemmän, kg
+Class 155 (356 posts): maksaa, 000, rahaa, 15, vuodessa, jopa, näin, 30, euron, 00
+Class 165 (289 posts): lihavuus, lihava, lihavia, lihavat, sillä, nainen, ettei, naiset, yli, onko
+Class 119 (235 posts): hinta, lihaa, jopa, lihan, alkoholin, liha, silloin, onko, nousee, kg
+Class 162 (227 posts): pizza, pizzaa, pizzan, kebab, ruokaa, todella, pizzat, jotain, päälle, sillä
+
+2020:
+Class 81 (862 posts): alkoholi, alkoholia, alkoholin, jälkeen, ettei, onko, pois, hyvin, miten, vaimo
+Class 17 (579 posts): sokeria, sokerin, ilman, syö, vettä, hyvin, enemmän, lisää, aika, esim
+Class 36 (506 posts): lihavuus, lihava, lihavia, lihavat, naiset, ettei, mies, ihminen, nainen, kg
+Class 22 (435 posts): lihava, nainen, mies, naiset, naisen, aika, naisia, halua, enää, oon
+Class 191 (421 posts): vitamiini, vitamiinia, vitamiinin, vitamiinit, ottaa, b12, mg, 16, mcg, 33
+Class 143 (380 posts): liha, lihaa, lihan, esim, ennen, enää, hyvin, syö, syödä, jälkeen
+Class 61 (348 posts): sokeri, sokeria, jälkeen, kuten, silloin, veren, hyvin, lisää, pois, yli
+Class 78 (329 posts): maksaa, euron, 20, esim, rahaa, 000, 10, yli, tässä, vuoden
+
+2021:
+Class 63 (906 posts): lihava, kelpaa, nainen, mies, tavis, naiset, naisen, naista, enää, naisia
+Class 49 (859 posts): alkoholi, alkoholia, alkoholin, juo, kuten, kannabiksen, https, fi, uri, www
+Class 121 (525 posts): liha, lihaa, lihan, syö, koko, hyvin, kuten, ruokaa, enää, jauhelihaa
+Class 261 (511 posts): sokeria, syö, vettä, hyvin, ilman, maitoa, suolaa, syödä, ettei, kahvia
+Class 85 (419 posts): lihavuus, lihava, lihavat, lihavia, enemmän, ylipaino, kuitenkin, kuten, miksi, liian
+Class 33 (383 posts): sokeri, sokeria, sokerin, liian, syödä, pois, aika, onko, syö, libre
+Class 99 (363 posts): vitamiini, vitamiinia, vitamiinin, kuten, vitamiinit, b12, esim, uri, https, raaka
+Class 97 (323 posts): tuore, olevan, jälkeen, piikkiproteiini, tutkimus, juuri, kuten, covid, milj, raaka
+
+2022:
+Class 123 (651 posts): sokeri, sokeria, syödä, syö, sokerista, sokerin, esim, enemmän, pois, rasva
+Class 97 (611 posts): sokeria, syö, syödä, kuten, jälkeen, hyvin, pois, sama, ruokaa, nainen
+Class 251 (487 posts): alkoholi, alkoholia, alkoholin, hyvin, ottaa, juo, enää, ettei, jälkeen, aika
+Class 209 (473 posts): lihava, mies, nainen, syö, ettei, joten, naiset, oon, enää, koko
+Class 126 (460 posts): liha, lihaa, lihan, lihat, pihvi, onko, syö, pepe, ravintola, patojen
+Class 118 (281 posts): tuore, jopa, venäjän, hyvin, https, osa, enemmän, onko, ett, keskusta
+Class 143 (279 posts): kotimainen, lihaa, liha, ruoka, kuitenkin, kuten, enää, miksi, koko, hk
+Class 227 (278 posts): ruokavalio, syö, hyvin, kuten, sokeria, aika, syödä, lihaa, jälkeen, söin
+
+2023:
+Class 117 (920 posts): alkoholi, alkoholia, alkoholin, hyvin, ilman, aiheuttaa, ettei, silloin, enemmän, yli
+Class 102 (613 posts): sokeria, syödä, syö, joten, rasvaa, ilman, hyvin, jälkeen, mies, pirkko
+Class 90 (605 posts): lihava, nainen, mies, hyvin, jälkeen, miten, syö, silloin, koko, kiloa
+Class 105 (561 posts): liha, lihaa, lihan, karhun, syödä, kuten, syö, juuri, pihviravintola, ellan
+Class 103 (403 posts): tuore, alkoholia, hyvin, eri, vuoden, ruokaa, kuten, jälkeen, vuotta, aikana
+Class 83 (386 posts): sokeri, sokeria, sokerin, syödä, esim, rasva, lisää, hyvin, enää, dl
+Class 135 (380 posts): lihavuus, lihava, lihavia, ettei, syö, kuten, pois, johtuu, liikaa, liian
+Class 235 (361 posts): maksaa, yli, 000, lihaa, rahaa, alle, hyvin, 50, 15, kilo
