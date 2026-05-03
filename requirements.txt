@@ -1,1 +1,3 @@
-networkX
+requests
+pandas
+time
