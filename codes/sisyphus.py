@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import time
 
-# 1: Setup & keyword definition
+# Setup & keyword definition
 
 KORP_API_URL = "https://www.kielipankki.fi/korp/cgi-bin/korp/korp.cgi"
 
@@ -20,7 +20,7 @@ keywords_dict = {
 all_keywords = [kw for sublist in keywords_dict.values() for kw in sublist]
 
 
-# 2: Data extraction with Korp API
+# Data extraction with Korp API
 
 
 def fetch_concordances(keyword, start=0, end=999):
@@ -112,7 +112,7 @@ df = df[df['matched_keywords'].map(len) > 0] # Filter out empty matches
 
 print(f"\nExtraction complete. Total unique posts: {len(df)}")
 
-# 3: Save data to CSV
+# Save data to CSV
 
 output_filename = "suomi24_food_data_2018_2023.csv"
 
