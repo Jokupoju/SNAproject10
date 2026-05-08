@@ -6,3 +6,5 @@ networkx
 sklearn
 os
 scikit
+itertools
+matplotlib
